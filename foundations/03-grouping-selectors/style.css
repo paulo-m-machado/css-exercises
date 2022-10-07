@@ -1,0 +1,14 @@
+.moron,
+.idiot {
+    font-size: 28px;
+    font-family: "Helvetica", "Times New Roman", sans-serif;
+}
+
+.moron {
+    color: white;
+    background-color: black;
+}
+
+.idiot {
+    background-color: yellow;
+}

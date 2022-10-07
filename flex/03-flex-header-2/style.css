@@ -8,10 +8,19 @@ body {
   font-family: Besley, serif;
 }
 
+.header, .left-items, .right-items, .links {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
 .header {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  justify-content: space-between;
+  flex: auto;
+  padding: 8px 16px;
 }
 
 .profile-image {
